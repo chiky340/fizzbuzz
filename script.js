@@ -1,24 +1,13 @@
-const output = fizzBuzz(31);
-console.log(output);
+// function showNumbers(limit){
+//     for(let i=0; i<limit; i++){
+//         console.log(i,'hello');
+//     }
+// };
+// showNumbers(10)
 
-function fizzBuzz(input){
-    if(typeof input !== 'number'){
-        return 'Not a number';
-    }
-    else if((input%3===0)  && (input%5===0)){
-        return 'fizzbuzz'
-    }
-    else if(input%3===0){
-        return 'fizz';
-    }
-    else if(input%5===0){
-        return 'buzz';
-    }
-   return input;
+for(let i = o;i>5;i++){
+    console.log('console', i)
 }
-
-
-
 
 
 
