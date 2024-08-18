@@ -1,13 +1,10 @@
-// function showNumbers(limit){
-//     for(let i=0; i<limit; i++){
-//         console.log(i,'hello');
-//     }
-// };
-// showNumbers(10)
-
-for(let i = o;i>5;i++){
-    console.log('console', i)
-}
+function showNumbers(limit){
+    for(let i=0; i<=limit; i++){
+        let value = (i%2==0) ? 'even' : 'odd';
+        console.log(i,value)
+    }
+};
+showNumbers(10)
 
 
 
