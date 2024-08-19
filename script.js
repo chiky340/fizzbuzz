@@ -1,13 +1,16 @@
 const movie ={
     titile:'a',
     releaseyear:2018,
-    director:'b'
-};
-
-function showProperties(obj){
-    console.log(movie)
+    director:'b',
+    releasemonth:898669
 };
 showProperties(movie);
+function showProperties(obj){
+    for(let key in obj)
+        if(typeof obj[key] === 'string')
+            console.log(key,obj[key])
+}
+
 
 
 
