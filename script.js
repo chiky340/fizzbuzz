@@ -1,23 +1,13 @@
-const output = fizzBuzz(31);
-console.log(output);
+const movie ={
+    titile:'a',
+    releaseyear:2018,
+    director:'b'
+};
 
-function fizzBuzz(input){
-    if(typeof input !== 'number'){
-        return 'Not a number';
-    }
-    else if((input%3===0)  && (input%5===0)){
-        return 'fizzbuzz'
-    }
-    else if(input%3===0){
-        return 'fizz';
-    }
-    else if(input%5===0){
-        return 'buzz';
-    }
-   return input;
-}
-
-
+function showProperties(obj){
+    console.log(movie)
+};
+showProperties(movie);
 
 
 
