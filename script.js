@@ -1,13 +1,13 @@
-function showNumbers(limit){
-    for(let i=0; i<=limit; i++){
-        let value = (i%2==0) ? 'even' : 'odd';
-        console.log(i,value)
-    }
-};
-showNumbers(10)
+const array = ["",0,null,undefined,1,2,3,6666,'hello'];
 
-
-
+function countTruthy(array){
+    let count = 0;
+    for(let value of array)
+        if(value)
+            count++;
+            return count;
+}
+console.log(countTruthy(array))
 
 
 
