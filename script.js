@@ -1,34 +1,8 @@
-const marks =[80,80,80];
-// console.log(calculateGrade(marks));
-
-//average = 70
-
-//A 90 - 100
-//B 80 - 89
-//C 70-79
-//D 60-69
-//F 1-59
-
-function calculateGrade(marks){
-    let sum = 0;
-    for(let index of marks){
-        sum += index;
-    }
-    let size = marks.length;
-    let mark = sum/size;
-
-    if(mark >= 90 )return 'a';
-    else if(mark >= 80)return 'b';
-    else if(mark >= 70)return 'c';
-    else if(mark >= 60)return 'd';
-    else return 'F'
-};
-console.log(calculateGrade(marks))
-
-
-
-
-
+function showStars(rows){
+    for(let i= 0;i<=rows;i++)
+        console.log("*".repeat(i))
+}
+showStars(10);
 
 
 
